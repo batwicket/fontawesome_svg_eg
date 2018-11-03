@@ -1,2 +1,3 @@
-# fontawesome_svg_eg
-Demo of Fontawesome svg
+# FontAwesome SVG Demo
+
+Simple demo.

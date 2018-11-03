@@ -1,0 +1,30 @@
+@import './fontawesome';
+@import './solid';
+@import './brands';
+
+.user {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &::before {
+    content: fa-content($fa-var-user);
+  }
+}
+
+.twitter {
+  @extend %fa-icon;
+  @extend .fab;
+
+  &::before {
+    content: fa-content($fa-var-twitter);
+  }
+}
+
+$color: #0086b3;
+
+.message {
+  background-color: $color;
+  border: solid darken($color, 10%);
+  font-weight: bold;
+  padding: .5rem;
+}
